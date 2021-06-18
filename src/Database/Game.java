@@ -11,7 +11,9 @@ import java.util.Calendar;
  */
 public class Game {
 
-    public Game() {}
+    public Game() {
+	System.out.println("const");
+	}
 
     public Game(String name, Calendar released, int totalTrophies) {
     }
